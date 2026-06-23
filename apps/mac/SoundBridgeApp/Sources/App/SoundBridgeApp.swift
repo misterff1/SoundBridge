@@ -26,7 +26,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         registerCustomFont()
 
         // Initialize Sparkle updater
-        initializeUpdater()
+        // initializeUpdater()
 
         // Check if onboarding is needed
         if !OnboardingState.hasCompleted() {
